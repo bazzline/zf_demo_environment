@@ -2,7 +2,6 @@
 
 Bazzline Demo Environment easy up testing or validating bazzline zend framework modules.
 
-
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/5410ba039e16228ca20000a8/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5410ba039e16228ca20000a8)
 
