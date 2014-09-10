@@ -1,0 +1,19 @@
+<?php
+/**
+ * Put this file in your config/autoload directory by removing the suffix ".dist"
+ * You only have to adapt the $settings array to your needs
+ *
+ * @author stev leibelt <artodeto@bazzline.net>
+ * @since 2014-09-06 
+ */
+
+$settings = array(
+    'name_to_configuration_path' => array(
+        //please specify a list of locator names and fitting configuration paths
+        //'example' => __DIR__ . DIRECTORY_SEPARATOR . 'example.php'
+    ),
+);
+
+return array(
+    'zf_locator_generator' => $settings
+);

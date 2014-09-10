@@ -1,0 +1,411 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e476a2be9107a2ed5f848c66edc9ea9f",
+    "packages": [
+        {
+            "name": "net_bazzline/php_component_code_generator",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazzline/php_component_code_generator.git",
+                "reference": "1f030b46966fa75233d1a5963876967b3a4807e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazzline/php_component_code_generator/zipball/1f030b46966fa75233d1a5963876967b3a4807e9",
+                "reference": "1f030b46966fa75233d1a5963876967b3a4807e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "2.8.0",
+                "mockery/mockery": "dev-master",
+                "nette/nette": "~2.1.3",
+                "phpmd/phpmd": "2.0.0",
+                "phpunit/phpunit": "4.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net\\Bazzline\\Component\\CodeGenerator": "source/",
+                    "Test\\Net\\Bazzline\\Component\\CodeGenerator": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Stev Leibelt",
+                    "email": "artodeto@bazzline.net",
+                    "homepage": "https://artodeto.bazzline.et",
+                    "role": "Developer"
+                }
+            ],
+            "description": "component to generate php code for class, file, method, property, constant, documentation",
+            "keywords": [
+                "generator",
+                "php",
+                "php code generator",
+                "phpdoc"
+            ],
+            "time": "2014-08-31 18:40:11"
+        },
+        {
+            "name": "net_bazzline/php_component_locator_generator",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazzline/php_component_locator_generator.git",
+                "reference": "fe22650afc5c59de0b9edde343d60cd8e5321067"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazzline/php_component_locator_generator/zipball/fe22650afc5c59de0b9edde343d60cd8e5321067",
+                "reference": "fe22650afc5c59de0b9edde343d60cd8e5321067",
+                "shasum": ""
+            },
+            "require": {
+                "net_bazzline/php_component_code_generator": "1.0.1",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "2.8.0",
+                "mikey179/vfsstream": "1.3.0",
+                "mockery/mockery": "dev-master",
+                "nette/nette": "~2.1.3",
+                "phpmd/phpmd": "2.0.0",
+                "phpunit/phpunit": "4.2.4"
+            },
+            "bin": [
+                "bin/generateLocator.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net\\Bazzline\\Component\\Locator": "source/",
+                    "Test\\Net\\Bazzline\\Component\\Locator": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Stev Leibelt",
+                    "email": "artodeto@bazzline.net",
+                    "homepage": "https://artodeto.bazzline.et",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generates configuration based hard coded locator",
+            "keywords": [
+                "array",
+                "configuration",
+                "generator",
+                "locator",
+                "php",
+                "propel",
+                "schema.xml"
+            ],
+            "time": "2014-09-03 12:26:42"
+        },
+        {
+            "name": "net_bazzline/zf_console_helper",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazzline/zf_console_helper.git",
+                "reference": "ef6c74f9836d07538050436808fbddd9493b5720"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazzline/zf_console_helper/zipball/ef6c74f9836d07538050436808fbddd9493b5720",
+                "reference": "ef6c74f9836d07538050436808fbddd9493b5720",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.*"
+            },
+            "require-dev": {
+                "apigen/apigen": "2.8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ZfConsoleHelper": "src/",
+                    "Test\\ZfConsoleHelper": "test/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Stev Leibelt",
+                    "email": "artodeto@bazzline.net",
+                    "homepage": "https://artodeto.bazzline.et",
+                    "role": "Developer"
+                }
+            ],
+            "description": "zend framework 2 console helper module",
+            "keywords": [
+                "console",
+                "helper",
+                "module",
+                "php",
+                "posix",
+                "signal handling",
+                "zend framework 2",
+                "zf2"
+            ],
+            "time": "2014-09-10 20:09:42"
+        },
+        {
+            "name": "net_bazzline/zf_locator_generator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bazzline/zf_locator_generator.git",
+                "reference": "3463ec2282d80893ebdc8fc333f3bc9b48e961f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bazzline/zf_locator_generator/zipball/3463ec2282d80893ebdc8fc333f3bc9b48e961f2",
+                "reference": "3463ec2282d80893ebdc8fc333f3bc9b48e961f2",
+                "shasum": ""
+            },
+            "require": {
+                "net_bazzline/php_component_locator_generator": "1.0.1",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpmd/phpmd": "2.0.0",
+                "phpunit/phpunit": "4.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ZfLocatorGenerator": "src/",
+                    "Test\\ZfLocatorGenerator": "test/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Stev Leibelt",
+                    "email": "artodeto@bazzline.net",
+                    "homepage": "https://artodeto.bazzline.et",
+                    "role": "Developer"
+                }
+            ],
+            "description": "zend framework 2 locator generator module",
+            "keywords": [
+                "array",
+                "configuration",
+                "generator",
+                "locator",
+                "module",
+                "php",
+                "propel",
+                "schema.xml",
+                "zend framework 2",
+                "zf2"
+            ],
+            "time": "2014-09-07 19:26:47"
+        },
+        {
+            "name": "zendframework/zendframework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zf2.git",
+                "reference": "a7b91f585b7d342bcc61a810972997cba1d3ab17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/a7b91f585b7d342bcc61a810972997cba1d3ab17",
+                "reference": "a7b91f585b7d342bcc61a810972997cba1d3ab17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zendxml": "~1.0-dev"
+            },
+            "replace": {
+                "zendframework/zend-authentication": "self.version",
+                "zendframework/zend-barcode": "self.version",
+                "zendframework/zend-cache": "self.version",
+                "zendframework/zend-captcha": "self.version",
+                "zendframework/zend-code": "self.version",
+                "zendframework/zend-config": "self.version",
+                "zendframework/zend-console": "self.version",
+                "zendframework/zend-crypt": "self.version",
+                "zendframework/zend-db": "self.version",
+                "zendframework/zend-debug": "self.version",
+                "zendframework/zend-di": "self.version",
+                "zendframework/zend-dom": "self.version",
+                "zendframework/zend-escaper": "self.version",
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-feed": "self.version",
+                "zendframework/zend-file": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-form": "self.version",
+                "zendframework/zend-http": "self.version",
+                "zendframework/zend-i18n": "self.version",
+                "zendframework/zend-inputfilter": "self.version",
+                "zendframework/zend-json": "self.version",
+                "zendframework/zend-ldap": "self.version",
+                "zendframework/zend-loader": "self.version",
+                "zendframework/zend-log": "self.version",
+                "zendframework/zend-mail": "self.version",
+                "zendframework/zend-math": "self.version",
+                "zendframework/zend-memory": "self.version",
+                "zendframework/zend-mime": "self.version",
+                "zendframework/zend-modulemanager": "self.version",
+                "zendframework/zend-mvc": "self.version",
+                "zendframework/zend-navigation": "self.version",
+                "zendframework/zend-paginator": "self.version",
+                "zendframework/zend-permissions-acl": "self.version",
+                "zendframework/zend-permissions-rbac": "self.version",
+                "zendframework/zend-progressbar": "self.version",
+                "zendframework/zend-resources": "self.version",
+                "zendframework/zend-serializer": "self.version",
+                "zendframework/zend-server": "self.version",
+                "zendframework/zend-servicemanager": "self.version",
+                "zendframework/zend-session": "self.version",
+                "zendframework/zend-soap": "self.version",
+                "zendframework/zend-stdlib": "self.version",
+                "zendframework/zend-tag": "self.version",
+                "zendframework/zend-test": "self.version",
+                "zendframework/zend-text": "self.version",
+                "zendframework/zend-uri": "self.version",
+                "zendframework/zend-validator": "self.version",
+                "zendframework/zend-version": "self.version",
+                "zendframework/zend-view": "self.version",
+                "zendframework/zend-xmlrpc": "self.version"
+            },
+            "require-dev": {
+                "doctrine/annotations": ">=1.0",
+                "fabpot/php-cs-fixer": "dev-master",
+                "ircmaxell/random-lib": "dev-master",
+                "ircmaxell/security-lib": "dev-master",
+                "mikey179/vfsstream": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "sebastianbergmann/phpcov": "1.1.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "Doctrine Annotations >=1.0 for annotation features",
+                "ext-intl": "ext/intl for i18n features (included in default builds of PHP)",
+                "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
+                "ocramius/proxy-manager": "ProxyManager 0.5.* to handle lazy initialization of services",
+                "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
+                "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
+            },
+            "bin": [
+                "bin/classmap_generator.php",
+                "bin/pluginmap_generator.php",
+                "bin/templatemap_generator.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 2",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "framework",
+                "zf2"
+            ],
+            "time": "2014-08-20 13:18:53"
+        },
+        {
+            "name": "zendframework/zendxml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/ZendXml.git",
+                "reference": "5ea106152f32f738430f3af9ac638bf30adec625"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/5ea106152f32f738430f3af9ac638bf30adec625",
+                "reference": "5ea106152f32f738430f3af9ac638bf30adec625",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "*@dev",
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "ZendXml": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Utility library for XML usage, best practices, and security in PHP",
+            "homepage": "http://packages.zendframework.com/",
+            "keywords": [
+                "security",
+                "xml",
+                "zf2"
+            ],
+            "time": "2014-08-14 15:29:10"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}
