@@ -12,4 +12,4 @@ The versioneye status is:
 
 # ToDo
 
-* add locator configuration for real demonstration
+* add dependency injection into example controllers of ExampleLocator

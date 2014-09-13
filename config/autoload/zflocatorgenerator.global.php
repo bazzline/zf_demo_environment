@@ -7,8 +7,7 @@
 return array(
     'zf_locator_generator' => array(
         'name_to_configuration_path' => array(
-            'example' => __DIR__ . DIRECTORY_SEPARATOR . 'example.php'
+            'example' => __DIR__ . '/../example_locator.config.php'
         ),
-
     )
 );
