@@ -9,3 +9,7 @@ The versioneye status is:
 
 * [zf_console_helper](https://github.com/bazzline/zf_console_helper)
 * [zf_locator_generator](https://github.com/bazzline/zf_locator_generator)
+
+# ToDo
+
+* add locator configuration for real demonstration
