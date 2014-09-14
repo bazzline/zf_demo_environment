@@ -12,4 +12,5 @@ The versioneye status is:
 
 # ToDo
 
+* add example for posix signal handling (console controller: index.php posix signalhandler [<runtime>] [<steps>] [--verbose]
 * add dependency injection into example controllers of ExampleLocator
