@@ -9,9 +9,9 @@
     "homepage": "http://framework.zend.com/",
     "minimum-stability": "dev",
     "require": {
-        "net_bazzline/zf_console_helper": "1.0.1",
-        "net_bazzline/zf_locator_generator": "1.0.1",
+        "net_bazzline/zf_console_helper_debian_6_backport": "*",
+        "net_bazzline/zf_locator_generator_debian_6_backport": "*",
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.2.*"
     }
 }
