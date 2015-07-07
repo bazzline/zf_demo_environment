@@ -9,7 +9,7 @@
     "homepage": "http://framework.zend.com/",
     "minimum-stability": "dev",
     "require": {
-        "net_bazzline/zf_locator_generator": "1.4.1",
+        "net_bazzline/zf_locator_generator": "1.4.2",
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*"
     }
