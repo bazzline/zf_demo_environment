@@ -1,7 +1,7 @@
 <?php
 /**
  * @author Net\Bazzline\Component\Locator
- * @since 2015-06-05
+ * @since 2015-07-12
  */
 
 namespace Application\Service;
