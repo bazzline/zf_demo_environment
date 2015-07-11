@@ -1,0 +1,32 @@
+#!/usr/bin/env php
+<?php
+/**
+ * @author Net\Bazzline Zf Cli Generator
+ * @since 2015-07-11 22:32:11
+ */
+
+use Net\Bazzline\Component\Cli\Readline\ManagerFactory;
+
+require_once '/home/nvb/software/source/com/github/bazzline/zf_demo_environment/config/autoload/../../vendor/autoload.php';
+
+try {
+    $factory           = new ManagerFactory();
+    $manager           = $factory->create();
+    $callApplication   = function() {
+        $line       = readline_info('line_buffer');
+        $command    = '/usr/bin/env php ' .
+            '/home/nvb/software/source/com/github/bazzline/zf_demo_environment/config/autoload/../../public/index.php ' .
+            $line;
+
+        passthru($command);
+    };
+    $configuration     = require_once('/home/nvb/software/source/com/github/bazzline/zf_demo_environment/config/autoload/../zf_cli_configuration.php');
+
+    $manager->setConfiguration($configuration);
+    $manager->setPrompt('zf: ');
+    $manager->run();
+} catch (Exception $exception) {
+    echo '----------------' . PHP_EOL;
+    echo $exception->getMessage() . PHP_EOL;
+    return 1;
+}
