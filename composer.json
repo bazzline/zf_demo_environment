@@ -9,7 +9,8 @@
     "homepage": "http://framework.zend.com/",
     "minimum-stability": "dev",
     "require": {
-        "net_bazzline/zf_locator_generator_debian_7_backport": "1.0.2",
+        "net_bazzline/zf_cli_generator": "0.0.2",
+        "net_bazzline/zf_locator_generator_debian_7_backport": "dev-test",
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.4.*"
     }

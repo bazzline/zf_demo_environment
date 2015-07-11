@@ -5,7 +5,7 @@
  */
 
 return array(
-    'zf_locator_generator' => array(
+    'net_bazzline_zf_locator_generator' => array(
         'name_to_configuration_path' => array(
             'example' => __DIR__ . '/../example_locator.config.php'
         ),
