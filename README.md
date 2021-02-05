@@ -1,3 +1,7 @@
+# Full Stop
+
+I still like the idea but there is currently no use case to develop it anymore.
+
 # ZF Demo Environment
 
 Bazzline Demo Environment easy up testing or validating bazzline zend framework modules.
